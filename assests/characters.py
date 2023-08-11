@@ -20,3 +20,4 @@ for id in ids:
 
 df = pd.DataFrame(data, columns=['ANIME_ID', 'NAME'])
 df.to_csv('characters.csv', index=False)
+
