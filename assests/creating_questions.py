@@ -1,12 +1,14 @@
-import pandas as pd
 import csv
+import pandas as pd
 import random
 
 animedata = pd.read_csv("anime_data.csv")
 
 subjects = ['year', 'episodes', 'studio']  # Add more subjects as needed
+wrong_answer_count = 3
 
 data = []
+question_id = 1  # Initialize the question ID counter
 
 for i in range(25):
     anime_name = animedata.loc[i, 'TITLE']
@@ -17,38 +19,46 @@ for i in range(25):
             correct_response = animedata.loc[i, 'YEAR']
             question = f"In which year did {anime_name} start streaming?"
 
-            # Generate a list of random wrong responses from the 'YEAR' column
-            wrong_responses = animedata['YEAR'].sample(n=3).tolist()
+            # Fetch wrong answers from the 'YEAR' column
+            wrong_answers = animedata['YEAR'].sample(
+                n=wrong_answer_count).tolist()
+            wrong_answers = [str(answer) for answer in wrong_answers if str(
+                answer) != str(correct_response)]
 
         elif subject == 'episodes':
             correct_response = animedata.loc[i, 'episodes']
             question = f"How many episodes does {anime_name} contain?"
 
-            # Generate a list of random wrong responses from the 'episodes' column
-            wrong_responses = animedata['episodes'].sample(n=3).tolist()
+            # Fetch wrong answers from the 'episodes' column
+            wrong_answers = animedata['episodes'].sample(
+                n=wrong_answer_count).tolist()
+            wrong_answers = [str(answer) for answer in wrong_answers if str(
+                answer) != str(correct_response)]
 
         elif subject == 'studio':
             correct_response = animedata.loc[i, 'Studio']
             question = f"Which studio produced {anime_name}?"
 
-            # Generate a list of random wrong responses from the 'Studio' column
-            wrong_responses = animedata['Studio'].sample(n=3).tolist()
+            # Fetch wrong answers from the 'Studio' column
+            wrong_answers = animedata['Studio'].sample(
+                n=wrong_answer_count).tolist()
+            wrong_answers = [
+                answer for answer in wrong_answers if answer != correct_response]
 
-        # Remove correct response from wrong responses, if present
-        if correct_response in wrong_responses:
-            wrong_responses.remove(correct_response)
+        # Shuffle wrong answers
+        random.shuffle(wrong_answers)
 
-        # Randomly shuffle the wrong responses
-        random.shuffle(wrong_responses)
+        data.append([question_id, anime_id, subject, question,
+                    correct_response, *wrong_answers])
+        question_id += 1  # Increment the question ID
 
-        data.append([anime_id, subject, question,
-                    correct_response, wrong_responses])
-
-csv_filename = "generated_questions.csv"
+# Write data to a CSV file
+csv_filename = "generated_questions_with_wrong_answers_and_id.csv"
 
 with open(csv_filename, mode='w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Anime ID", "Subject", "Question", "Correct Response"])
+    writer.writerow(["Question ID", "Anime ID", "Subject", "Question",
+                    "Correct Response", "Wrong Response 1", "Wrong Response 2", "Wrong Response 3"])
     writer.writerows(data)
 
 print(f"CSV file '{csv_filename}' has been created.")

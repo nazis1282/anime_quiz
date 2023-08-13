@@ -1,0 +1,76 @@
+Question ID,Anime ID,Subject,Question,Correct Response,Wrong Response 1,Wrong Response 2,Wrong Response 3
+1,5114,year,In which year did Fullmetal Alchemist: Brotherhood start streaming?,2009.0,2020.0,2014.0,2008.0
+2,5114,episodes,How many episodes does Fullmetal Alchemist: Brotherhood contain?,64,366,500,26
+3,5114,studio,Which studio produced Fullmetal Alchemist: Brotherhood?,Bones,Pierrot,MAPPA,Madhouse
+4,21,year,In which year did One Piece start streaming?,1999.0,2004.0,2015.0,2016.0
+5,21,episodes,How many episodes does One Piece contain?,airing,25,26,25
+6,21,studio,Which studio produced One Piece?,Toei Animation,Wit Studio,A-1 Pictures,Bones
+7,11061,year,In which year did Hunter x Hunter (2011) start streaming?,2011.0,2012.0,2018.0
+8,11061,episodes,How many episodes does Hunter x Hunter (2011) contain?,148,1,366,airing
+9,11061,studio,Which studio produced Hunter x Hunter (2011)?,Madhouse,Gainax,White Fox,Pierrot
+10,9253,year,In which year did Steins;Gate start streaming?,2011.0,2008.0,nan,2007.0
+11,9253,episodes,How many episodes does Steins;Gate contain?,24,26,500,25
+12,9253,studio,Which studio produced Steins;Gate?,White Fox,Pierrot,Toei Animation,Gainax
+13,1535,year,In which year did Death Note start streaming?,2006.0,2013.0,1998.0,2012.0
+14,1535,episodes,How many episodes does Death Note contain?,37,24,366
+15,1535,studio,Which studio produced Death Note?,Madhouse,Gainax,A-1 Pictures,Kyoto Animation
+16,16498,year,In which year did Shingeki no Kyojin start streaming?,2013.0,2011.0,2019.0
+17,16498,episodes,How many episodes does Shingeki no Kyojin contain?,25,26,37
+18,16498,studio,Which studio produced Shingeki no Kyojin?,Wit Studio,Toei Animation,Sunrise,Sunrise
+19,1735,year,In which year did Naruto: Shippuuden start streaming?,2007.0,2002.0,1998.0,2016.0
+20,1735,episodes,How many episodes does Naruto: Shippuuden contain?,500,27,148,220
+21,1735,studio,Which studio produced Naruto: Shippuuden?,Pierrot,CoMix Wave Films,Madhouse
+22,1575,year,In which year did Code Geass: Hangyaku no Lelouch start streaming?,2006.0,2007.0,2013.0
+23,1575,episodes,How many episodes does Code Geass: Hangyaku no Lelouch contain?,25,64,13,27
+24,1575,studio,Which studio produced Code Geass: Hangyaku no Lelouch?,Sunrise,Kyoto Animation,Pierrot
+25,30,year,In which year did Neon Genesis Evangelion start streaming?,1995.0,1998.0,2011.0,2008.0
+26,30,episodes,How many episodes does Neon Genesis Evangelion contain?,26,24,37,25
+27,30,studio,Which studio produced Neon Genesis Evangelion?,Gainax,Sunrise,Sunrise,White Fox
+28,38000,year,In which year did Kimetsu no Yaiba start streaming?,2019.0,2020.0,2006.0,2011.0
+29,38000,episodes,How many episodes does Kimetsu no Yaiba contain?,26,1,25,1
+30,38000,studio,Which studio produced Kimetsu no Yaiba?,ufotable,A-1 Pictures,Kyoto Animation,Madhouse
+31,32281,year,In which year did Kimi no Na wa. start streaming?,nan,2011.0,2006.0,2002.0
+32,32281,episodes,How many episodes does Kimi no Na wa. contain?,1,64,37
+33,32281,studio,Which studio produced Kimi no Na wa.?,CoMix Wave Films,Kyoto Animation,Sunrise,Kyoto Animation
+34,28851,year,In which year did Koe no Katachi start streaming?,nan,2006.0,2004.0
+35,28851,episodes,How many episodes does Koe no Katachi contain?,1,37,24,26
+36,28851,studio,Which studio produced Koe no Katachi?,Kyoto Animation,Pierrot,Toei Animation,Wit Studio
+37,23273,year,In which year did Shigatsu wa Kimi no Uso start streaming?,2014.0,2013.0,1998.0,2006.0
+38,23273,episodes,How many episodes does Shigatsu wa Kimi no Uso contain?,22,26,366,airing
+39,23273,studio,Which studio produced Shigatsu wa Kimi no Uso?,A-1 Pictures,White Fox,Pierrot,Production I.G
+40,40748,year,In which year did Jujutsu Kaisen start streaming?,2020.0,2015.0,2014.0,2008.0
+41,40748,episodes,How many episodes does Jujutsu Kaisen contain?,24,500,26,1
+42,40748,studio,Which studio produced Jujutsu Kaisen?,MAPPA,A-1 Pictures,White Fox
+43,1,year,In which year did Cowboy Bebop start streaming?,1998.0,nan,2002.0
+44,1,episodes,How many episodes does Cowboy Bebop contain?,26,27,25
+45,1,studio,Which studio produced Cowboy Bebop?,Sunrise,Wit Studio,White Fox,CoMix Wave Films
+46,20,year,In which year did Naruto start streaming?,2002.0,2007.0,1995.0
+47,20,episodes,How many episodes does Naruto contain?,220,25,64,25
+48,20,studio,Which studio produced Naruto?,Pierrot,Madhouse,Kyoto Animation,Kyoto Animation
+49,2001,year,In which year did Tengen Toppa Gurren Lagann start streaming?,2007.0,2012.0,2019.0,nan
+50,2001,episodes,How many episodes does Tengen Toppa Gurren Lagann contain?,27,25,22
+51,2001,studio,Which studio produced Tengen Toppa Gurren Lagann?,Gainax,Wit Studio,Pierrot,Toei Animation
+52,2904,year,In which year did Code Geass: Hangyaku no Lelouch R2 start streaming?,2008.0,1995.0,nan,2015.0
+53,2904,episodes,How many episodes does Code Geass: Hangyaku no Lelouch R2 contain?,25,1,22
+54,2904,studio,Which studio produced Code Geass: Hangyaku no Lelouch R2?,Sunrise,ufotable,CoMix Wave Films
+55,20583,year,In which year did Haikyuu!! start streaming?,2014.0,2018.0,2012.0,nan
+56,20583,episodes,How many episodes does Haikyuu!! contain?,25,1,13,220
+57,20583,studio,Which studio produced Haikyuu!!?,Production I.G,Bones,Toei Animation
+58,269,year,In which year did Bleach start streaming?,2004.0,2020.0,2019.0,2014.0
+59,269,episodes,How many episodes does Bleach contain?,366,1,24,25
+60,269,studio,Which studio produced Bleach?,Pierrot,CoMix Wave Films,Gainax
+61,4181,year,In which year did Clannad: After Story start streaming?,2008.0,2004.0,2014.0,nan
+62,4181,episodes,How many episodes does Clannad: After Story contain?,24,airing,25,26
+63,4181,studio,Which studio produced Clannad: After Story?,Kyoto Animation,MAPPA,ufotable,White Fox
+64,11757,year,In which year did Sword Art Online start streaming?,2012.0,2011.0,nan,2002.0
+65,11757,episodes,How many episodes does Sword Art Online contain?,25,1,148
+66,11757,studio,Which studio produced Sword Art Online?,A-1 Pictures,Pierrot,Kyoto Animation
+67,31240,year,In which year did Re:Zero kara Hajimeru Isekai Seikatsu start streaming?,2016.0,nan,2019.0
+68,31240,episodes,How many episodes does Re:Zero kara Hajimeru Isekai Seikatsu contain?,25,24,500,12
+69,31240,studio,Which studio produced Re:Zero kara Hajimeru Isekai Seikatsu?,White Fox,Kyoto Animation,Sunrise,A-1 Pictures
+70,30276,year,In which year did One Punch Man start streaming?,2015.0,nan,2006.0,1999.0
+71,30276,episodes,How many episodes does One Punch Man contain?,12,22,1,500
+72,30276,studio,Which studio produced One Punch Man?,Madhouse,A-1 Pictures,Kyoto Animation
+73,33352,year,In which year did Violet Evergarden start streaming?,2018.0,2012.0,2008.0,2014.0
+74,33352,episodes,How many episodes does Violet Evergarden contain?,13,27,24,12
+75,33352,studio,Which studio produced Violet Evergarden?,Kyoto Animation,Production I.G,Madhouse,White Fox
