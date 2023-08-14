@@ -53,7 +53,7 @@ for i in range(25):
         question_id += 1  # Increment the question ID
 
 # Write data to a CSV file
-csv_filename = "generated_questions_with_wrong_answers_and_id.csv"
+csv_filename = "questions"
 
 with open(csv_filename, mode='w', newline='') as file:
     writer = csv.writer(file)
